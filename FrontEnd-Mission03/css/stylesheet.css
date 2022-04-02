@@ -1,0 +1,154 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --h1-titles: #48618C;
+    --p-color: #757575;
+}
+/* Navbar container */
+nav.navbar {
+    background: hsl(0, 0%, 96%, 0.5);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/* Nav Logo */
+.navbar-brand img{
+    height: 100px;
+    width: 100px;
+}
+/* Navigation */
+div.navbar {
+    margin-right: 50px;
+}
+div.navbar ul.navbar-nav {
+    margin-right: 10px;
+    display: block;
+}
+div.navbar ul.navbar-nav li.nav-item {
+    display: inline;
+    padding-right: 15px;
+}
+div.navbar ul.navbar-nav li.nav-item a {
+    display: inline;
+    text-decoration-line: none;
+    color: #757575;
+}
+/* Button Style */
+button.btn-outline-success {
+    border: none;
+    background-color: #3232ff;
+    color: #fff;
+}
+/* Body Content */
+div.col {
+    padding: 0;
+}
+/* Text align */
+div.intro {
+    display: grid;
+    align-content: center;
+    margin: 0 50px 0 50px;
+}
+div.intro h1{
+    margin: 0 20px 20px 20px;
+    color: var(--h1-titles);
+}
+div.intro p{
+    text-align: justify;
+    margin: 0 20px 20px 20px;
+    color: var(--p-color);
+}
+/* Image size */
+div.img01 img {
+    width: 100%;
+    height: 100%;
+}
+/* Vaccines Logos */
+div.vaccines {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+div.vaccines img{
+    height: 150px;
+    width: 250px;
+    opacity: 0.5;
+}
+/* Vaccine 1st Section */
+section h1 {
+    color: var(--h1-titles);
+}
+section p {
+    color: var(--p-color);
+}
+div.row-section02 {
+    margin-left: 0;
+    margin-right: 0;
+}
+div.card-section {
+    margin: 10px 80px 10px 80px;
+}
+/* Cards */
+div.card {
+    margin: 10px;
+    border: none;
+}
+/* Icons */
+div.card .card-body i {
+    color: #7489DC;
+}
+/* Card Text */
+div.card .card-body h5 {
+    margin-top: 10px;
+    color: var(--h1-titles);
+}
+div.card .card-body p {
+    font-size: 0.8rem;
+    color: var(--p-color);
+}
+/* Vaccine 2nd Section */
+div.col img {
+    width: 500px;
+    height: 350px;
+    padding-right: 40px;
+}
+/* Accordion Icons */
+.accordion .accordion-item i {
+    margin-right: 10px;
+}
+/* Vaccine 3 Secrtion */
+div.section03 {
+    margin: 0;
+    padding-top: 50px;
+}
+/* Doctor Image */
+div.section03 img{
+    height: 100%;
+}
+/* Card Style */
+div.col div.one {
+    align-content: center;
+    align-items: center;
+    width: 200px;
+}
+/* Footer */
+footer {
+    background: #F0F5FF;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+/* Footer List */
+div.col ul {
+    list-style: none;
+    padding-left: 0;
+}
+div.col ul a{
+    text-decoration: none;
+    color: var(--p-color);
+}
+div.col-6 h2 {
+    color: var(--h1-titles);
+}

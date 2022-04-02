@@ -1,0 +1,200 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+html {
+    background-color: #808080;
+}
+/* Navbar */
+nav.navbar {
+    background-color: #0B2830;
+}
+
+nav.navbar img {
+    width: 65px;
+    height: 65px;
+}
+
+/* Navigation Items */
+ul.nav {
+    list-style-type: none;
+    font-family: 'Fredoka', sans-serif;
+}
+
+li.nav-item {
+    display: inline;
+}
+
+li.nav-item a{
+    color:#adff2f;
+}
+
+li.nav-item a:hover {
+    color: #35CDE8;;
+}
+
+/* Footer Styles */
+footer {
+    font-family: 'Poppins', sans-serif
+}
+
+footer div {
+    background-color: #0B2830;
+    color: #35CDE8;
+}
+
+footer p, p.title {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2.title {
+    color: #adff2f;
+    margin-bottom: 10px;
+}
+
+p.title {
+    color: #adff2f;
+}
+
+footer div.row-footer {
+    display: flex;
+    align-items: center;
+}
+
+footer div.col-6 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Body Styles */
+body div.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body div.row-01 {
+    background-color: #A2ACBA;
+}
+/* Headings */
+h1, h2 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+body h1 {
+    color: #adff2f;
+    padding-top: 30px;
+}
+
+body h1, h2 {
+    text-align: center;
+}
+
+body h2 {
+    margin-bottom: 30px;
+}
+
+body h2.lst-title {
+    padding-top: 30px;
+    color: #adff2f;
+}
+
+/* Heading Image */
+div.mainimg img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: #4D1008;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+div.mainimg {
+    padding-bottom: 20px;
+}
+
+/* Short Cake List */
+div.row {
+    background-color: #26576E;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+div.row ul.lst-el {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    border: #adff2f;
+    border-style: solid;
+    border-width: 4px;
+    background-color: #2C2666;
+    color: white;
+}
+
+div.row ul.lst-el li {
+    padding-bottom: 10px;
+}
+
+/* Cake Maker Styles */
+div.bg {
+    background-color: #A2ACBA;
+}
+
+/* Froms in Cake Maker */
+div.bg form {
+    width: 50rem;
+    border-radius: 12px;
+    border: 2px solid rgba(0, 0, 0, .2);
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+}
+
+div.bg form div.inputBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.bg form div.inputBox div.input {
+    width: 45%;
+}
+
+
+div.bg form div.inputBox div.input span {
+    display: block;
+    padding: .5rem 0;
+    font-size: 1rem;
+    color: var(--light-color);
+}
+
+/* Input Style */
+div.bg form div.inputBox div.input input,
+div.bg form div.inputBox div.input textarea {
+    background: #eee;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    color: var(--black);
+    text-transform: none;
+    margin-bottom: 5px;
+    width: 80%;
+}
+
+div.bg form div.inputBox div.input textarea {
+    height: 20rem;
+    resize: none;
+}
+
+div.btnBox {
+    display: grid;
+}
+
+div.bg input.btn {
+    margin: auto;
+    display: block;
+}
